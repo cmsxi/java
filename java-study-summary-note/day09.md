@@ -39,6 +39,7 @@ public class BeepPrintExample2 {
 }
 ```
 
+2. Thread() 클래스 상속
 - 익명 자식 객체 만들기 
 ```java
 public class BeepPrintExample {
@@ -63,15 +64,14 @@ public class BeepPrintExample {
 	}
 }
 ```
-2. Thread() 클래스 상속
 
 
 ##### 동기화
 - `synchronized`: 동기
 	- 메서드 or 블록에 해당 키워드 붙이면 동기적이 됨
+	- 동시 실행 불가. 선점한 프로세스 실행이 끝난 후 다른 프로세스 실행
 - `asynchronized`: 비동기
-	- AJAX : A
-	- synchronized JavaScript And Xml
+	- AJAX : Asynchronized JavaScript And Xml
 
 
 
@@ -103,6 +103,5 @@ public class BeepPrintExample {
 	- LinkedList 검색 느림
 	- 어플리케이션은 DB에서 삭제 삽입을 하는 경우가 많으므로 잘 안 사용함
 - 순서가 있고 차례대로 저장되어 있으므로 순차적 작업이 필요한 경우 유리함
+- 타입 제한이 없음(제네릭, 참조자료형)
 
-
-##### 
